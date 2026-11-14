@@ -1,5 +1,7 @@
 # 业务演练
 
+以下情景均由 `npm test` 中的 `test/receive.test.mjs` 在本地合成站点上逐一演练，可重复运行，不访问外网；正式接收命令为 `npm run receive`。
+
 |情景|源端设置|接收端结果|
 |---|---|---|
 |断流|cutOnce=true|部分文件不进入 sealed，重启可用验证器协商续接|

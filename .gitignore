@@ -4,6 +4,7 @@
 node_modules/
 var/
 sealed/
+receipt.json
 *.part
 playwright-report/
 test-results/
